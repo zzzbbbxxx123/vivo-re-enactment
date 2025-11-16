@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box ;
+    }
+
+    div
+    {
+      margin: 0 auto;
+    }
+
+    body
+    {
+      background-color: #f3f3f3;
+    }
+    
+    li
+    {
+      list-style-type: none;
+    }
+
+    .box01
+    {
+      height: 40px;
+      /* width: 1342px; */
+      margin: 0 auto;
+      background-color: #242933;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+    }
+
+    .u01
+    {
+      display: flex;
+    }
+
+    .u01 li
+    {
+      display: flex;
+      margin-right: 42px;
+      height: 40px;
+    }
+
+    .u01 li:nth-child(1)
+    {
+      padding-left:80px;
+    }
+
+    .u01 li:nth-child(4-n)
+    {
+      /* justify-content: end; */
+      margin-left:42px ;
+    }
+
+    a
+    {
+      text-decoration: none;
+    }
+    .box01 .u01 a
+    {
+      color: #8a8f99;
+      font-size: 12px;
+      margin:auto ;
+    }
+
+    .box01 .u01 a:hover
+    {
+      color: #f8fcff;
+    }
+
+    .box02 a:hover
+    {
+      color: #415fff;
+    }
+
+
+
+    /* ************************************************************************************************************************* */
+
+    .box02
+    {
+      /* width: 1342px; */
+      height: 86px;
+      background-color: #f7f7f7;
+    }
+
+    .box02 .u02
+    {
+      display: flex;
+      text-align: center;
+
+    }
+
+    .u02 li
+    {
+      display: flex;
+      margin-right: 42px;
+      font-size: 18px;
+      /* height: 40px; */
+    }
+
+    .u02 li:nth-child(n-1)
+    {
+      margin: auto;
+      
+    }
+
+    .box02 a
+    {
+      color: #242933;
+    }
+
+
+/* ***************************************************************************************************************************** */
+
+    .box03
+    {
+      display: flex;
+      height: 522px;
+      background-color: #0b093b;
+      justify-content: flex-end;
+    }
+ 
+    .box03 .u03 li
+    {
+      height: 65px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* justify-content: center; */
+    }
+
+    .mibox01
+    {
+      height: 482px;
+      width: 200px;
+      background-color: #a9a8ba;
+      text-align: center;
+      margin: auto;
+    }
+
+    .u03 li a
+    {
+      color: #333;
+    }
+
+
+    .u03 :hover
+    {
+
+      background-color: #fff;
+    }
+
+/* ******************************************************************************************************************************/
+
+    .box04
+    {
+      display: flex;
+      height: 240px;
+      width: 1200px;
+      background-color: brown;
+      margin: 30px auto 0;
+      justify-content: space-between;
+
+    }
+
+    .box04 div
+    {
+      width: 394px;
+      height: 190px;
+      background-color: #fff;
+      margin: 0;
+    }
+
+/* **************************************************************************************************************************** */
+
+    .box05
+    {
+      width: 1200px;
+      height: 57px;
+      background-color: aqua;
+      margin: 0 auto;
+    }
+
+    .box05 div
+    {
+      display: flex;
+    }
+
+    .box05 div p
+    {
+      margin: 0 0 0 10px;
+      color: #999999;
+    }
+
+    /* ********************************************************************************************************************************* */
+
+    .box06
+    {
+      display: flex;
+      width: 1200px;
+      height: 380px;
+      background-color: yellow;
+      justify-content: space-between;
+    }
+    .box06 div
+    {
+      width: 293px;
+      margin: 0;
+      background-color: #333;
+    }
+/* ****************************************************************************************************************************** */
+    .box07
+    {
+      width: 1200px;
+      height: 87px;
+      background-color: brown;
+      /* line-height: 87px; */
+      padding: 38px 0 25px;
+      text-align: center;
+      font-size: 24px;
+      margin: 0 auto;
+    }
+/* ********************************************************************************************************************************* */
+
+.box08
+    {
+      display: flex;
+      width: 1200px;
+      height: 521px;
+      background-color: yellow;
+      justify-content: space-between;
+    }
+    .box08 div
+    {
+      width: 394px;
+      margin: 0;
+      background-color: #333;
+    }
+    
+/* *********************************************************************************************************************************** */
+    .ubox09
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1200px;
+      height: 780px;
+      background-color: aqua;
+      margin: 0 auto;
+    }
+    .ubox09 li
+    {
+      width: 293px;
+      height: 380px;
+      background-color: yellow;
+    }
+    .ubox09 li:nth-child(1)
+    {
+      width: 595px; ;
+    }
+/* ******************************************************************************************************************************** */
+    .ubox10
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1200px;
+      height: 780px;
+      background-color: aqua;
+      margin: 0 auto;
+    }
+    .ubox10 li
+    {
+      width: 293px;
+      height: 380px;
+      background-color: #999999;
+    }
+
+/* ****************************************************************************************************************************** */
+
+  .box11
+  {
+    height: 614px;
+    background-color: #fff;
+    padding:76px 80px ;
+  }
+  .box11 ul
+  {
+    display: flex;
+  }
+  .box11 ul li
+  {
+    margin:0 auto;
+
+  }
+
+  .box11 dt
+  {
+    width: 149px;
+    height: 57px;
+    font-size: 16px;
+    color: #242933;
+    font-weight: 700;
+  }
+
+  .box11 dd
+  {
+    width: 149px;
+    height: 17px;
+    margin: 0 0 18px;
+  }
+
+  .box11 a
+  {
+    font-size: 14px;
+    color: #575c66;
+  }
+  .box11 a:hover
+  {
+    color: #415fff;
+  }
+</style>
+</head>
+
+
+
+
+
+
+<body>
+  <div class="box01">
+    <ul class="u01">
+      <li><a href="#">品牌</a></li>
+      <li><a href="#">OriginOS</a></li>
+      <li><a href="#">体验店</a></li>
+      <li><a href="#">官网社区</a></li>
+      <li><a href="#">下载</a></li>
+      <li><a href="#">购物车</a></li>
+      <li><a href="#">个人中心</a></li>
+    </ul>
+  </div>
+
+
+  <div class="box02">
+    <ul class="u02">
+      <li><a href="#"><img src="./初学html/images.src/屏幕截图 2025-11-15 165421.png" alt="vivo标签"></a></li>
+      <li><a href="#">X系列</a></li>
+      <li><a href="#">S系列</a></li>
+      <li><a href="#">Y系列</a></li>
+      <li><a href="#">iQOO手机</a></li>
+      <li><a href="#">智能硬件</a></li>
+      <li><a href="#">商城</a></li>
+      <li><a href="#">服务</a></li>
+      <li><a href="#"><img src="./初学html/images.src/屏幕截图 2025-11-15 172019.png" alt=""></a></li>
+    </ul>
+  </div>
+
+  <div class="box03">
+    <!-- 大的动态图片 -->
+     <div class="mibox01">
+      <ul class="u03">
+        <li><a href="#">手机</a></li>
+        <li><a href="#">平板手表</a></li>
+        <li><a href="#">手机充电</a></li>
+        <li><a href="#">手机壳膜</a></li>
+        <li><a href="#">耳机音箱</a></li>
+        <li><a href="#">游戏摄影</a></li>
+        <li><a href="#">数码家电</a></li>
+        <!-- <li><a href="#">生活日用</a></li> -->
+      </ul>
+     </div>
+     <div class="mibox02"><a href="#"><img src="./初学html/images.src/屏幕截图 2025-11-15 182240.png" alt="" height="522px"></a></div>
+  </div>
+
+  <div class="box04">
+    <!-- 专区模块 -->
+     <div><a href="#"></a></div>
+     <div><a href="#"></a></div>
+     <div><a href="#"></a></div>
+  </div>
+
+  <div class="box05">
+    <!-- 秒杀专场 -->
+    <div>
+      <a href="#"><img src="https://assets.vivo.com.cn/vivoshop/spaweb/static/img/img-vbuy.06e94a77.png" alt="" height="26" width="79.38"></a>
+      <p>
+        即将结束
+      </p>
+    </div>
+  </div>
+
+  <div class="box06">
+    <div><a href="#"></a></div>
+    <div><a href="#"></a></div>
+    <div><a href="#"></a></div>
+    <div><a href="#"></a></div>
+  </div>
+
+  <p class="box07">热卖专场</p>
+
+
+  <div class="box08">
+    <div><a href="#"></a></div>
+    <div><a href="#"></a></div>
+    <div><a href="#"></a></div>
+  </div>
+
+  <p class="box07">精品手机</p>
+
+  <ul class="ubox09">
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+  </ul>
+
+  <p class="box07">精品配件</p>
+
+  <ul class="ubox10">
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+  </ul>
+
+
+  <div class="box11">
+    <ul>
+      <li>
+        <dl>
+          <dt>了解产品</dt>
+          <dd><a href="#">X系列</a></dd>
+          <dd><a href="#">S系列</a></dd>
+          <dd><a href="#">Y系列</a></dd>
+          <dd><a href="#">iQOO手机</a></dd>
+          <dd><a href="#">智能硬件</a></dd>
+          <dd><a href="#">T系列</a></dd>
+          <dd><a href="#">NEX系列</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>在线购买</dt>
+          <dd><a href="#">官方商城</a></dd>
+          <dd><a href="#">选购手机</a></dd>
+          <dd><a href="#">选购配件</a></dd>
+          <dd><a href="#">订单查询</a></dd>
+          <dd><a href="#">官方app下载</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>服务支持</dt>
+          <dd><a href="#">真伪查询</a></dd>
+          <dd><a href="#">服务网点</a></dd>
+          <dd><a href="#">查找手机</a></dd>
+          <dd><a href="#">常见问题</a></dd>
+          <dd><a href="#">服务政策</a></dd>
+          <dd><a href="#">环保回收</a></dd>
+          <dd><a href="#">安全公告</a></dd>
+          <dd><a href="#">NPS调研</a></dd>
+          <dd><a href="#">Log还原LUTs下载</a></dd>
+          <dd><a href="#">vivo 办公套件</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>商务合作</dt>
+          <dd><a href="#">供应商协同平台</a></dd>
+          <dd><a href="#">开放平台</a></dd>
+          <dd><a href="#">vivo 企业业务</a></dd>
+          <dd><a href="#">廉正合规</a></dd>
+          <dd><a href="#">国补营业执照</a></dd>
+          <dd><a href="#">无线电发射设备销售备案</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>关于vivo</dt>
+          <dd><a href="#">vivo简介</a></dd>
+          <dd><a href="#">工作机会</a></dd>
+          <dd><a href="#">新闻资讯</a></dd>
+          <dd><a href="#">隐私中心</a></dd>
+          <dd><a href="#">可持续发展</a></dd>
+          <dd><a href="#">vivo 蔡司影像</a></dd>
+          <dd><a href="#">开发者社区</a></dd>
+          <dd><a href="#">蓝河操作系统</a></dd>
+          <dd><a href="#">vivo 通信</a></dd>
+          <dd><a href="#">vivo 智能车载</a></dd>
+        </dl>
+      </li>
+      <li><a href="#"><img src="./初学html/images.src/屏幕截图 2025-11-16 171011.png" alt=""></a></li>
+    </ul>
+  </div>
+</body>
+</html>
